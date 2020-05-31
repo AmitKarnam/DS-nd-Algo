@@ -12,7 +12,6 @@ void reverse()
         prev = current;
         current = next;
     }
-
-        if(current == NULL)
+         if(current == NULL)
             head = prev;
 }
