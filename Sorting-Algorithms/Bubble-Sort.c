@@ -30,7 +30,7 @@ void BubbleSort(int array[],int length)                    /*  Bubble sort, some
                                                             is a simple sorting algorithm that repeatedly parses through the list, 
                                                             compares adjacent elements and swaps them if they are in the wrong order.  */
 {
-    for(int i=1;i<=(length-1);i++)
+    for(int i=0;i<=(length-1);i++)
     {
         int flag = 0;                                      /* flag variable is used to improve the time complexity of the program */
         for(int j=0;j<=(length-i-1);j++)                   /* As the inner loop runs the highest element's start settling at the end of the array */
